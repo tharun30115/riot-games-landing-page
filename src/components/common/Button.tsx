@@ -3,7 +3,8 @@ const Button = (props: any) => {
 
   return (
     <button className="bg-[#d13639] px-6 py-2 rounded-full text-[12px] text-black font-bold tracking-wider">
-I am A button    </button>
+      {buttonTitle}
+    </button>
   );
 };
 
